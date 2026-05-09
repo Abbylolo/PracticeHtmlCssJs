@@ -4,6 +4,8 @@
 
 ## 项目介绍
 
+> 效果演示视频下载项目可看，存放在assets目录
+
 ### 一、expanding-cards
 
 ### 二、progress-steps
@@ -19,6 +21,6 @@
 1. **实现效果：** 页面向下滚动盒子左右进入，向上滚动盒子左右滚出
 2. **实现方案：**
    - CSS：设置水平移动动画`translateX`。初始值200%视口外，再设置样式show水平移动0显示
-   - JS：设置底线高度 `window.innerHeight`，如果当前盒子距离顶部高度`Element.getBoundingClientRect().top`小于底线，设置样式show `Element.classList.add(类名)`，否则移除show `element.classList.remove(类名)`
+   - JS：设置底线高度 `window.innerHeight`，如果当前盒子距离顶部高度`Element.getBoundingClientRect().top`小于底线，设置样式show `Element.classList.add(类名)`，否则移除show `element.classList.remove(类名)
 
-<video src="./assets/scroll-animation.mp4" controls></video>
+<video src="./assets/scroll-animation.mov" controls></video>
