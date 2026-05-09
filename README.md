@@ -21,4 +21,4 @@
    - CSS：设置水平移动动画`translateX`。初始值200%视口外，再设置样式show水平移动0显示
    - JS：设置底线高度 `window.innerHeight`，如果当前盒子距离顶部高度`Element.getBoundingClientRect().top`小于底线，设置样式show `Element.classList.add(类名)`，否则移除show `element.classList.remove(类名)`
 
-<video src="./assets/scroll-animation.mov" controls></video>
+<video src="./assets/scroll-animation.mp4" controls></video>
